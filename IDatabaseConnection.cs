@@ -1,7 +1,9 @@
 using System;
+namespace DatabaseConnection;
 
-public interface IDbConnection{
 
-	public string connectionString { get; set; }
 
+public interface IDatabaseConnection
+{
+    public string connectionString { get; set; }
 }

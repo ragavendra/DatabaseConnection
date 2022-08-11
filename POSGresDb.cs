@@ -1,4 +1,5 @@
 using System;
+namespace DatabaseConnection;
 
 public class POSGresDb : IDatabaseConnection{
 
